@@ -21,7 +21,6 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/contact', [\App\Http\Controllers\ContactController::class, 'index']);
 
 Route::get('/contact', [\App\Http\Controllers\ContactController::class, 'index']);
 //its'me
