@@ -23,4 +23,4 @@ Route::get('/about', function () {
 });
 
 Route::get('/contact', [\App\Http\Controllers\ContactController::class, 'index']);
-//its'me
+
